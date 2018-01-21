@@ -8,8 +8,6 @@ const piggyBank = {
 }
 
 
-
-
 for(key in piggyBank) {
    switch(key) {
        case "quarters":
