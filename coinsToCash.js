@@ -8,6 +8,7 @@ const piggyBank = {
 }
 
 
+
 for(key in piggyBank) {
    switch(key) {
        case "quarters":
@@ -18,8 +19,10 @@ for(key in piggyBank) {
             break;
         case "nickels":
             dollarAmount += piggyBank[key] * .05;
+            break;
         case "pennies":
             dollarAmount += piggyBank[key] * .01;
+            break;
    }
 }
 
